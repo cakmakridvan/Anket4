@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/iics_logo"
+     >
+
+    <TextView
+        android:id="@+id/txt_kullanici_No"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textSize="55sp"
+      
+         />
+
+    <Button
+        android:imeOptions="actionDone"
+        android:textSize="25sp"
+        android:id="@+id/btn_Kullanici_yolla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_kullanici_No"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button_text_color"
+        android:text="Send"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edt_kullanici_No"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="number"
+        
+        android:textSize="30sp"
+       
+         >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

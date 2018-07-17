@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anket1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme"
+        android:name="com.example.anket1.GlobalClass"
+         >
+         
+        
+<!--          <receiver android:enabled="true" android:name=".BootUpReceiver"
+        android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+                <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+       </receiver> -->
+       
+<!--                  <activity
+            android:screenOrientation="landscape"
+            android:name="com.example.anket1.AndroidVideoPlayer"
+            android:label="@string/app_name"
+                          android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+    android:configChanges="orientation|screenSize"
+             >
+            <intent-filter>
+                
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> -->
+        
+        
+        <activity
+            android:screenOrientation="landscape"
+            android:name="com.example.anket1.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.anket1.KimlikEkrani"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.KIMLIKEKRANI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:screenOrientation="landscape"
+            android:name="com.example.anket1.DEneme"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DENEME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:screenOrientation="landscape"
+            android:name="com.example.anket1.BitisMesage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TOASTMESAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:screenOrientation="landscape"
+            android:name="com.example.anket1.SonrakiActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SONRAKIACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.anket1.KullaniciGirisi1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.KULLANICIGIRISI1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+                <activity
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.anket1.SecretButon"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SECRETBUTON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                <activity
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.anket1.SetVolumeLevel"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SETVOLUMELEVEL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                                <activity
+                                     android:theme="@style/AppBaseTheme"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.androidbegin.jsonparsetutorial.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity                                  
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.dashboard.DashBoard"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DASHBOARD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           
+                      <activity                                  
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.user.login.Login"
+            android:label="@string/app_name"
+            
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.LOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                                                      <activity
+                                     android:theme="@style/AppBaseTheme"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.androidbegin.jsonparsetutorial.VideoSayfasi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIDEOSAYFASI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+
+        
+                                                
+          <activity
+              android:theme="@style/AppBaseTheme"
+               android:name="com.androidbegin.jsonparsetutorial.SingleItemView" >
+        </activity>
+        
+        <activity android:name=".second"></activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/uczdashboard_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="146dp"
+        android:layout_height="105dp"
+        android:layout_gravity="right"
+        android:layout_weight="0.00" >
+
+        <Button
+            android:id="@+id/btn_shutdownn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/btn_shutdown"
+            android:src="@drawable/shutdown" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="80dp"
+            android:text="Çıkış"
+            android:textColor="@color/black"
+            android:textSize="23sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/websitecheck" />
+
+        <Button
+            android:id="@+id/btn_mgz_ziyaret_bilgi"
+            android:layout_width="700dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/btn_check_control"
+            android:text="Mağaza Ziyaret Bulguları Anketi"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/surveyicon" />
+
+        <Button
+            android:id="@+id/btn_urun_anket"
+            android:layout_width="700dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn_check_control"
+            android:text="Ürün Anketi"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/serviceicon" />
+
+        <Button
+            android:id="@+id/btn_servis_hizmet"
+            android:layout_width="700dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/btn_check_control"
+            android:text="Servis Hizmeti Girişi"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/newmessage" />
+
+        <Button
+            android:id="@+id/btn_genel_mesaj"
+            android:layout_width="700dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/btn_check_control"
+            android:text="Genel Mesajlar"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/inboxgmailicon" />
+
+        <Button
+            android:id="@+id/btn_magazaya_ozel_msj"
+            android:layout_width="700dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/btn_check_control"
+            android:text="Mağazaya Özel Mesajlar"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+</LinearLayout>

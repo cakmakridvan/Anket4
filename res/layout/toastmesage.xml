@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uygun_ecz"
+    android:gravity="center"
+     >
+
+    <TextView
+         android:id="@+id/textView1"
+        android:layout_width="match_parent"
+                android:layout_height="230dp"
+      android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="55sp"
+        android:text="" />
+
+</LinearLayout>

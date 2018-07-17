@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+   <VideoView
+	android:id="@+id/video"  
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    
+    />
+
+<!--    <Button
+       android:visibility="invisible"
+       android:id="@+id/btn_video_volume"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+        /> -->
+        
+            <SeekBar
+        android:id="@+id/video_level_seekBar"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true" />
+
+</RelativeLayout>

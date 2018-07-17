@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/uygun_ecz"
+    android:id="@+id/genelLayout"
+     >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="55sp" />
+
+        <LinearLayout
+            android:id="@+id/bitis_layout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="114dp"
+            android:layout_toLeftOf="@+id/buttonlayout" >
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonlayout"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <!-- <Button
+            android:id="@+id/secret_button"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="" /> -->
+
+</RelativeLayout>

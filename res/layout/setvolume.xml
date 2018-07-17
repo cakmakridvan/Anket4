@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/uygun_ecz"
+     >
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="211dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/seekBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="87dp"
+        android:text="Change the Volume of Application"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btn_geri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/stylebutton_backbutton" />
+    
+                    <Button
+                    android:id="@+id/btn_wifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:layout_below="@+id/seekBar"
+                    android:text="Wifi" />
+
+    <!-- <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+       android:layout_marginTop="460dp"
+        android:layout_marginLeft="59dp"
+        android:layout_toRightOf="@+id/btn_geri"
+        android:text="Video Dosyalarını Sil"
+        android:textColor="@color/black"
+        android:textSize="30dp" /> -->
+
+    <!-- <Button
+        android:id="@+id/delete_video_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_geri"
+        android:layout_toRightOf="@+id/textView2"
+        android:background="@drawable/stylebutton_copkutusu" /> -->
+
+</RelativeLayout>
